@@ -12,6 +12,8 @@ import menuData from '@/util/index'
 
 <style scoped>
 .app {
+  width: 100%;
+  height: 100%;
   position: relative;
 }
 </style>

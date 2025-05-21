@@ -1,11 +1,11 @@
 <template>
     <div class="header-title">
-        111
+        这是菜单
     </div>
 </template>
 
 <script lang="ts" setup>
-defineProps({
+const { menuData } = defineProps({
     menuData: {
         type: Array,
         default: () => []
@@ -15,6 +15,10 @@ defineProps({
 
 <style lang="less" scoped>
 .header-title {
-    position: absolute;
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    background-color: #36d;
 }
 </style>
