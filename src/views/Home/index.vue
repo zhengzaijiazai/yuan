@@ -1,7 +1,7 @@
 <template>
     <div class="home">
         <div class="cplist">
-            
+
         </div>
     </div>
 </template>
@@ -22,5 +22,6 @@ const data = reactive<listData>([
 .cplist {
     width: 100%;
     padding: 20px;
+    box-sizing: border-box;
 }
 </style>

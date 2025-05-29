@@ -8,7 +8,7 @@
                         <img :src="item.icon" alt="">
                     </div>
                     <div class="menu-name">
-                        {{item.name}}
+                        {{ item.name }}
                     </div>
                 </div>
             </div>
@@ -18,16 +18,16 @@
 
 <script lang="ts" setup>
 import type { MenuProps } from "./type"
-import { withDefaults } from "vue"; 'vue'
+import { withDefaults } from "vue";
 
-const {direction} = withDefaults(defineProps<MenuProps>(),{
+const { direction } = withDefaults(defineProps<MenuProps>(), {
     direction: 'row',
-    menuData:  () => []
+    menuData: () => []
 })
 </script>
 
 <style lang="scss" scoped>
-.menu{
+.menu {
     width: 100%;
     height: 100%;
 }

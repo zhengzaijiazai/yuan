@@ -6,3 +6,24 @@
   margin: 0;
   padding: 0;
 }
+
+body::-webkit-scrollbar {
+  width: 10px !important;
+}
+body ::-webkit-scrollbar {
+  width: 6px;
+  background-color: transparent;
+}
+body ::-webkit-scrollbar-track {
+  /* background: transparent; */
+}
+body ::-webkit-scrollbar-thumb {
+  background: #0762b4;
+  border-radius: 100px;
+}
+body ::-webkit-scrollbar-thumb:hover {
+  background: #61b6eb;
+}
+body ::-webkit-scrollbar-corner {
+  background: #61b6eb;
+}
